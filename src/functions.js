@@ -33,7 +33,7 @@ function color_mix(c1, c2){
     }
 
 function largestProduct(val1, val2, val3){
-    var result "";
+    var result = "";
 
     var num1 = val1 < 0 ? val1*-1 : val1;
     var num2 = val2 < 0 ? val2*-1 : val2;
@@ -44,7 +44,13 @@ function largestProduct(val1, val2, val3){
     var threeOne = num3 * num1;
 
     if (oneTwo >= twoThree && oneTwo >= threeOne) {
-        result = oneTwo;
+        result = val1 * val2;
+    } else if (twoThree >= oneTwo && twoThree >= threeOne) {
+        result = val2 * val3;
+    } else if (threeOne >= oneTwo && threeOne >= twoThree) {
+        result = val3 * val1;
+    } else {
+        result = "Input is invalid.";
     }
 
     return result;

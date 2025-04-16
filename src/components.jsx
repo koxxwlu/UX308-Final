@@ -1,50 +1,53 @@
-import {color_mix, largestProduct} from './functions.js';
+import { color_mix, largestProduct} from './functions.js';
 
-function Question1(){
+function Question1() {
     return <section>
-    <br></br>
-1. Determines the secondary rgb_color from mixing two primary
-    RGB (Red, Green, Blue) colors. The order of the colors
-    is *not* significant.
-      <h2>results</h2>
-      <p>color_mix("r", "b") (red + blue) == {color_mix("r", "b")}</p>
-      <p>color_mix("r", "g") (red + green) == {color_mix("r", "g")}</p>
-      <p>color_mix("g", "b") (green + blue) == {color_mix("g", "b")}</p>
-      <p>color_mix("r", "r") (red + red) == {color_mix("r", "r")}</p>
-      <p>color_mix("b", "b") (blue + blue) == {color_mix("b", "b")}</p>
-      <p>color_mix("g", "g") (green + green) == {color_mix("g", "g")}</p>
-      <p>color_mix("r", "p") (red + purple (invalid input)) == {color_mix("r", "p")}</p>
+        <br></br>
+        1. Determines the secondary rgb_color from mixing two primary
+        RGB (Red, Green, Blue) colors. The order of the colors
+        is *not* significant.
+        <h2>results</h2>
+        <p>color_mix("r", "b") (red + blue) == {color_mix("r", "b")}</p>
+        <p>color_mix("r", "g") (red + green) == {color_mix("r", "g")}</p>
+        <p>color_mix("g", "b") (green + blue) == {color_mix("g", "b")}</p>
+        <p>color_mix("r", "r") (red + red) == {color_mix("r", "r")}</p>
+        <p>color_mix("b", "b") (blue + blue) == {color_mix("b", "b")}</p>
+        <p>color_mix("g", "g") (green + green) == {color_mix("g", "g")}</p>
+        <p>color_mix("r", "p") (red + purple (invalid input)) == {color_mix("r", "p")}</p>
     </section>;
 }
 
-function Question2(){
+function Question2() {
     return <section>
-2. Write a function that converts from fahrenheit to celsius        
-<h2>results</h2>
-<p>largestProduct(3, 2, 1) == {largestProduct(3, 2, 1)}</p>
+        2. Write a function that converts from fahrenheit to celsius
+        <h2>results</h2>
+        <p>largestProduct(3, 2, 1) == {largestProduct(3, 2, 1)}</p>
+        <p>largestProduct(8, 12, -90) == {largestProduct(8, 12, -90)}</p>
+        <p>largestProduct(17, -2, 89) == {largestProduct(17, -2, 89)}</p>
+        <p>largestProduct(30, 30, 30) == {largestProduct(30, 30, 30)}</p>
     </section>
 }
 
-function Question3(){
+function Question3() {
     return <section>
-3. Write a function that converts from fahrenheit to celsius        
-<h2>results</h2>
+        3. Write a function that converts from fahrenheit to celsius
+        <h2>results</h2>
 
     </section>
 }
 
-function Question4(){
+function Question4() {
     return <section>
-4. Write a function that converts from fahrenheit to celsius        
-<h2>results</h2>
+        4. Write a function that converts from fahrenheit to celsius
+        <h2>results</h2>
     </section>
 }
 
-function Question5(){
+function Question5() {
     return <section>
-5. Write a function that converts from fahrenheit to celsius        
-<h2>results</h2>
+        5. Write a function that converts from fahrenheit to celsius
+        <h2>results</h2>
     </section>
 }
 
-export {Question1, Question2, Question3, Question4, Question5}
+export { Question1, Question2, Question3, Question4, Question5 }
