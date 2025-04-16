@@ -1,12 +1,19 @@
-import {fahrenheitToCelsius, hello} from './functions.js';
+import {color_mix, fahrenheitToCelsius} from './functions.js';
 
 function Question1(){
     return <section>
-1. Write a function that takes a _name_ as an argument and _returns a string_ that _contains "hello"_ and the name paramerer. Test at least 3 names. <br />*Note ... I solved this one already
+    <br></br>
+1. Determines the secondary rgb_color from mixing two primary
+    RGB (Red, Green, Blue) colors. The order of the colors
+    is *not* significant.
       <h2>results</h2>
-      <p>hello("Rich") == "{hello('Rich')}"</p>
-      <p>hello("Bill") == "{hello('Bill')}"</p>
-      <p>hello("Chris") == "{hello('Chris')}"</p>
+      <p>color_mix("r", "b") (red + blue) == {color_mix("r", "b")}</p>
+      <p>color_mix("r", "g") (red + green) == {color_mix("r", "g")}</p>
+      <p>color_mix("g", "b") (green + blue) == {color_mix("g", "b")}</p>
+      <p>color_mix("r", "r") (red + red) == {color_mix("r", "r")}</p>
+      <p>color_mix("b", "b") (blue + blue) == {color_mix("b", "b")}</p>
+      <p>color_mix("g", "g") (green + green) == {color_mix("g", "g")}</p>
+      <p>color_mix("r", "p") (red + purple (invalid input)) == {color_mix("r", "p")}</p>
     </section>;
 }
 
