@@ -1,4 +1,4 @@
-import {color_mix, fahrenheitToCelsius} from './functions.js';
+import {color_mix, largestProduct} from './functions.js';
 
 function Question1(){
     return <section>
@@ -21,9 +21,7 @@ function Question2(){
     return <section>
 2. Write a function that converts from fahrenheit to celsius        
 <h2>results</h2>
-<p>fahrenheitToCelsius(32) == "{fahrenheitToCelsius(32)}"</p>
-<p>fahrenheitToCelsius(212) == "{fahrenheitToCelsius(212)}"</p>
-<p>fahrenheitToCelsius(70) == "{fahrenheitToCelsius(70)}"</p>
+<p>largestProduct(3, 2, 1) == {largestProduct(3, 2, 1)}</p>
     </section>
 }
 
@@ -31,9 +29,7 @@ function Question3(){
     return <section>
 3. Write a function that converts from fahrenheit to celsius        
 <h2>results</h2>
-<p>fahrenheitToCelsius(32) == "{fahrenheitToCelsius(32)}"</p>
-<p>fahrenheitToCelsius(212) == "{fahrenheitToCelsius(212)}"</p>
-<p>fahrenheitToCelsius(70) == "{fahrenheitToCelsius(70)}"</p>
+
     </section>
 }
 
@@ -41,9 +37,6 @@ function Question4(){
     return <section>
 4. Write a function that converts from fahrenheit to celsius        
 <h2>results</h2>
-<p>fahrenheitToCelsius(32) == "{fahrenheitToCelsius(32)}"</p>
-<p>fahrenheitToCelsius(212) == "{fahrenheitToCelsius(212)}"</p>
-<p>fahrenheitToCelsius(70) == "{fahrenheitToCelsius(70)}"</p>
     </section>
 }
 
@@ -51,9 +44,6 @@ function Question5(){
     return <section>
 5. Write a function that converts from fahrenheit to celsius        
 <h2>results</h2>
-<p>fahrenheitToCelsius(32) == "{fahrenheitToCelsius(32)}"</p>
-<p>fahrenheitToCelsius(212) == "{fahrenheitToCelsius(212)}"</p>
-<p>fahrenheitToCelsius(70) == "{fahrenheitToCelsius(70)}"</p>
     </section>
 }
 
