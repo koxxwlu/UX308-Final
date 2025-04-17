@@ -56,4 +56,29 @@ function largestProduct(val1, val2, val3){
     return result;
 }
 
-export {color_mix, largestProduct}
+function dayOfWeek(num){
+    return num==1?"Sunday":num==2?"Monday":num==3?"Tuesday":num==4?"Wednesday":num==5?"Thursday":num==6?"Friday":num==7?"Saturday":"Error";
+}
+
+function payRaise(status, years, salary){
+    var result = 0;
+    var validStatus = status == "P" || status == "F";
+    var invalidYear = years < 0;
+    var invalidSalary = salary < 0;
+
+    if (!validStatus || invalidYear || invalidSalary) {
+        result = "Input is invalid.";
+    } else if (years < 4) {
+        result = status=="F"?salary*1.015:salary*1.01;
+    } else if (status == "P" && years > 10) {
+        result = salary*1.03;
+    } else if (status == "F" && years >= 10) {
+        result = salary*1.05;
+    } else {
+        result = salary*1.02;
+    }
+
+    return result.toFixed(0);
+}
+
+export {color_mix, largestProduct, dayOfWeek, payRaise}
