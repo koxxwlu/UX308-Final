@@ -78,7 +78,18 @@ function payRaise(status, years, salary){
         result = salary*1.02;
     }
 
-    return result.toFixed(0);
+    return result.toFixed(2);
 }
 
-export {color_mix, largestProduct, dayOfWeek, payRaise}
+function leapYear(year){
+    var result = "";
+    var by4 = year%4==0;
+    var by100 = year%100==0;
+    var by400 = by4 & by100;
+
+    result = by400?true:
+
+    return result;
+}
+
+export {color_mix, largestProduct, dayOfWeek, payRaise, leapYear}

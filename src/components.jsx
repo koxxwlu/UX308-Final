@@ -1,8 +1,7 @@
-import { color_mix, largestProduct, dayOfWeek, payRaise} from './functions.js';
+import { color_mix, largestProduct, dayOfWeek, payRaise, leapYear} from './functions.js';
 
 function Question1() {
     return <section>
-        <br></br>
         1. Determines the secondary rgb_color from mixing two primary
         RGB (Red, Green, Blue) colors. The order of the colors
         is *not* significant.
@@ -19,6 +18,7 @@ function Question1() {
 
 function Question2() {
     return <section>
+        ______________________________________________________________________________________<br></br><br></br>
         2. Find the largest product out of three combinations.
         <h2>results</h2>
         <p>largestProduct(3, 2, 1) == {largestProduct(3, 2, 1)}</p>
@@ -30,6 +30,7 @@ function Question2() {
 
 function Question3() {
     return <section>
+        ______________________________________________________________________________________<br></br><br></br>
         3. Number of day into the week into day of week.
         <h2>results</h2>
         <p>dayOfWeek(1) == {dayOfWeek(1)}</p>
@@ -46,7 +47,8 @@ function Question3() {
 
 function Question4() {
     return <section>
-        4. Write a function that converts from fahrenheit to celsius
+        ______________________________________________________________________________________<br></br><br></br>
+        4. Calculate pay raise based on status & year.
         <h2>results</h2>
         <p>payRaise("F", 2, 25000) == ${payRaise("F", 2, 25000)}</p>
         <p>payRaise("P", 2, 25000) == ${payRaise("P", 2, 25000)}</p>
@@ -62,8 +64,15 @@ function Question4() {
 
 function Question5() {
     return <section>
-        5. Write a function that converts from fahrenheit to celsius
+        ______________________________________________________________________________________<br></br><br></br>
+        5. See if a year is leap year.
         <h2>results</h2>
+        <p>leapYear(1700)(false) == {leapYear(1700)}</p>
+        <p>leapYear(1800)(false) == {leapYear(1800)}</p>
+        <p>leapYear(1900)(false) == {leapYear(1900)}</p>
+        <p>leapYear(1600)(true) == {leapYear(1600)}</p>
+        <p>leapYear(2000)(true) == {leapYear(2000)}</p>
+        <p>leapYear(1999)(false) == {leapYear(1999)}</p>
     </section>
 }
 
