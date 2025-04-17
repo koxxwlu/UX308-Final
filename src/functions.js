@@ -87,7 +87,7 @@ function leapYear(year){
     var by100 = year%100==0;
     var by400 = year%400==0;
 
-    result = by400?"true":by4?`${!by100}`:"false";
+    result = year<0?"Input is invalid":by400?"true":by4?`${!by100}`:"false";
 
     return result;
 }

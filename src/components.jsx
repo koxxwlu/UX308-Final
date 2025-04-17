@@ -25,6 +25,7 @@ function Question2() {
         <p>largestProduct(8, 12, -90) == {largestProduct(8, 12, -90)}</p>
         <p>largestProduct(17, -2, 89) == {largestProduct(17, -2, 89)}</p>
         <p>largestProduct(30, 30, 30) == {largestProduct(30, 30, 30)}</p>
+        <p>largestProduct(-8, 12, 20) == {largestProduct(-8, 12, 20)}</p>
     </section>
 }
 
@@ -72,6 +73,7 @@ function Question5() {
         <p>leapYear(1900)(false) == {leapYear(1900)}</p>
         <p>leapYear(1600)(true) == {leapYear(1600)}</p>
         <p>leapYear(2000)(true) == {leapYear(2000)}</p>
+        <p>leapYear(-2000)(false) == {leapYear(-2000)}</p>
         <p>leapYear(1999)(false) == {leapYear(1999)}</p><br></br>
         <p>leapYear(1000)(false) == {leapYear(1000)}</p>
         <p>leapYear(1001)(false) == {leapYear(1001)}</p>
