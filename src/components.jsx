@@ -72,7 +72,9 @@ function Question5() {
         <p>leapYear(1900)(false) == {leapYear(1900)}</p>
         <p>leapYear(1600)(true) == {leapYear(1600)}</p>
         <p>leapYear(2000)(true) == {leapYear(2000)}</p>
-        <p>leapYear(1999)(false) == {leapYear(1999)}</p>
+        <p>leapYear(1999)(false) == {leapYear(1999)}</p><br></br>
+        <p>leapYear(1000)(false) == {leapYear(1000)}</p>
+        <p>leapYear(1001)(false) == {leapYear(1001)}</p>
     </section>
 }
 

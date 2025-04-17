@@ -85,9 +85,9 @@ function leapYear(year){
     var result = "";
     var by4 = year%4==0;
     var by100 = year%100==0;
-    var by400 = by4 & by100;
+    var by400 = year%400==0;
 
-    result = by400?true:
+    result = by400?"true":by4?`${!by100}`:"false";
 
     return result;
 }
